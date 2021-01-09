@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Finn Landing Page</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section class="showcase">
+			<header>
+				<h2 class="logo">Finn</h2>
+				<div class="toggle"></div>
+			</header>
+			<video
+				src="/0C70AC63-8903-402F-A872-56666B3AAF93.MP4"
+				muted
+				loop
+				autoplay
+			></video>
+			<div class="text">
+				<h2>fart</h2>
+				<h3>peepee poopoo</h3>
+				<p>
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis sunt
+					perspiciatis quisquam sint sequi voluptatem animi error voluptatum
+					voluptas laborum.
+				</p>
+				<a href="#">Explore</a>
+			</div>
+			<ul class="social">
+				<li>
+					<a href="#"><img src="/facebook.png" alt="" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="/twitter.png" alt="" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="/instagram.png" alt="" /></a>
+				</li>
+			</ul>
+		</section>
+		<div class="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">News</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Destination</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Blog</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+
+		<script>
+			const menuToggle = document.querySelector(".toggle");
+			const showcase = document.querySelector(".showcase");
+
+			menuToggle.addEventListener("click", () => {
+				menuToggle.classList.toggle("active");
+				showcase.classList.toggle("active");
+			});
+		</script>
+	</body>
+</html>
